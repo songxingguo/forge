@@ -1,0 +1,16 @@
+name: 更新第二大脑大🧠
+on: [push]
+jobs:
+  garden-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout codes"
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            brain.sh
+          sparse-checkout-cone-mode: false
+      - name: "触发garden的GithubAction"
+        run: bash ./brain.sh
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
