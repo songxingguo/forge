@@ -9,7 +9,6 @@ category:
 tag:
   - DEMO
 ---
-
 ### 初始化场景
 
 首先是分别创建场景、相机和渲染器，三者缺一不可，并将渲染器渲染的结果挂载到 DOM 元素上。最后将在`render`函数绑定到`requestAnimationFrame`上, 并执行渲染函数，每次重绘都会重新执行`render`函数。
