@@ -1,0 +1,18 @@
+{
+  "name": "b-forge",
+  "version": "1.0.0",
+  "description": "--- home: true icon: home title: 首页 heroImage: /logo.png heroText: 宋玉 の 第二大脑 tagline: 任何没有经过自己大脑处理过的知识永远都不会真正属于你！ actions:   - text: 立即进入 👉     link: /web/frontend/guide/what-is     type: primary",
+  "main": "commitlint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitlint": "commitlint --edit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.0.11"
+  }
+}
