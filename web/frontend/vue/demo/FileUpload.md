@@ -10,14 +10,18 @@ tag:
   - 标签
 ---
 
-## 文件上传案例
 
-### [ElementUI文件上传](https://brain.songxingguo.com/demo/FileUpload/EFileUpload.html)
+### [大文件分片上传](https:/brain.songxingguo.com/demo/FileUpload/BigFileUpload.html)
+  
+<HtmlEditor  src="/demo/FileUpload/BigFileUpload.html"/>
+
+
+### [ElementUI文件上传](https:/brain.songxingguo.com/demo/FileUpload/EFileUpload.html)
   
 <HtmlEditor  src="/demo/FileUpload/EFileUpload.html"/>
 
 
-### [原生文件上传](https://brain.songxingguo.com/demo/FileUpload/FileUpload.html)
+### [原生文件上传](https:/brain.songxingguo.com/demo/FileUpload/FileUpload.html)
   
 <HtmlEditor  src="/demo/FileUpload/FileUpload.html"/>
 
